@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: 
+    #F6F5FA;;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cart{
+	margin: 60px 0;
+	background-color: #dddae9; 
+	padding: 60px 0;
+    border-radius: 10px;
+    box-shadow: 0 25px 25px rgb(0 0 0 / 0.10);
+}
+.total-price{
+	padding-bottom: 15px;
+}
+.cart-item{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+    box-shadow: 0 25px 25px rgb(0 0 0 / 0.10);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cart-item img{
+	width: 115px;
+}
+.cart-item h5{
+    
+    padding: 10px 45px 0 45px;
+}
+.cart-item .remove-item{
+	width: 25px!important;
+}
+/* .btn-default{
+	background-color: #fff; 
+     border: 1px solid rgb(26, 24, 24) !important;
+ padding: 0px 3px;
+    border-radius: 50px !important; 
+} */
+.cart-item .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.form-control{
+    margin: 0px 10px;
+    border: 2px solid #a8a8a8 !important;
+
+    border-radius: 30px !important;
+}
+.input-group{
+	width: unset;
+	flex-wrap: nowrap;
+}
+.status{
+	text-align: right;
+}
+.check-out{
+    float: right;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #a8a8a8;
+	border: none;
+}
+.circle-border{
+    border: 1px solid rgb(24, 24, 24);
+    padding: 5px 8px;
+    border-radius: 55px !important;
+}
+
+.scale-75 {
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.gg {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1.2));
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 22px;
+}
+.gg-1 {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 2px;
+    transform: scale(var(--ggs,1.2));
+    width: 22px;
+    height: 22px;
+    border: 2px solid red !important;
+    /* border-radius: 25px  !important; */
+}
+.notify {
+    /* color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #6495ed;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px; */
+    display: none; /*new line after solution */
+}
