@@ -18,10 +18,10 @@ document.getElementById('case-minus').addEventListener('click', function(){
     updateProductNumber('case', 59, false)
 });
 document.getElementById('airpod-plus').addEventListener('click', function(){
-    updateProductNumber('case', 249, true);
+    updateProductNumber('airpod', 249, true);
 });
 document.getElementById('airpod-minus').addEventListener('click', function(){
-    updateProductNumber('case', 249, false)
+    updateProductNumber('airpod', 249, false)
 });
 
 
